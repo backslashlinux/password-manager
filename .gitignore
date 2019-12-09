@@ -7,5 +7,5 @@ node_modules
 builds
 packages
 bower_components
-test/.storage/*.swftx
+test/.storage/*.pwmx
 yarn-error.log

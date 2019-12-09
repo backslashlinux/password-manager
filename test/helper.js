@@ -27,7 +27,7 @@ const fixturePath = file => {
 }
 
 const storageFile = () => {
-  return path.join(process.cwd(), 'test', '.storage', 'default.swftx')
+  return path.join(process.cwd(), 'test', '.storage', 'default.pwmx')
 }
 
 const prepareStorage = storage => {
