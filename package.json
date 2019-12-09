@@ -31,7 +31,8 @@
   "scripts": {
     "lint": "npx eslint --color src",
     "start": "NODE_ENV=development bozon start",
-    "test": "yarn lint && NODE_ENV=test npx jest test/units && NODE_ENV=test bozon test test/features",
+    "testrun": "yarn lint && NODE_ENV=test npx jest test/units && NODE_ENV=test bozon test test/features",
+    "test": "bozon package linux",
     "package-mac": "bozon package mac",
     "package-linux": "bozon package linux"
   },
