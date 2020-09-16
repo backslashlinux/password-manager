@@ -58,7 +58,7 @@
     "file-loader": "^5.0.2",
     "jest": "^24.9.0",
     "mocha": "^6.2.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
     "ps-node": "^0.1.6",
     "react-svg-loader": "^3.0.3",
